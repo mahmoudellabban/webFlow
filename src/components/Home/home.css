@@ -1,58 +1,191 @@
 .hero {
-    display: flex;
-    height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: calc(100vh - 120px);
+  padding: 5px 60px;
 }
-.hero .text {
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-    gap: 25px;
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 35%;
 }
-.hero .text h1 {
-    font-size: 45px;
-    font-weight: 800;
-    color: #333;
+.text h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #333;
 }
-.hero .text p {
-    font-size: 20px;
-    font-weight: 500;
-    color: #333;
+.text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
 }
-.hero .text .btn button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    background-color: #4353ff;
-    font-size: 18px;
-    font-size: 500;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+
 .hero img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+.company {
+  padding: 15px 60px;
+}
+.company h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #333;
+}
+.company .logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  margin: 30px auto;
+}
+.company .logos img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.design {
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(247, 219, 215, 0), #feebca), linear-gradient(120deg, #f7dbd7, #fef4eb);
+  display: flex;
+  padding: 30px 150px;
+  gap: 20px;
+}
+ .video {
+  flex: 1;
+}
+ .video video {
+  width: 100%;
+}
+ .video .desc {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+.desc .one {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+.video .desc .one h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.video .desc .one p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.launch {
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(247, 219, 215, 0), #fcf0ea), linear-gradient(180deg, #e9e2f0, #e9e2f0);
+}
+.production {
+  height: 100vh;
+  background-image: linear-gradient(180deg, #d8ece8, #feebca);
+} 
+.last {
+  padding: 50px;
+  height: 100vh;
+  color: white;
+ background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+.last .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  width: 800px;
+}
+.last .second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  gap: 25px;
+  margin-top: 50px;
+}
+.last .second .card {
+  background-image: linear-gradient(180deg, #000, #4353ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.last .second .card img {
+  width: 70px;
+  height: 70px;
+  filter: invert(100%);
 }
 @media (max-width: 1199px) {
-    .hero {
-        flex-direction: column;
-        height: 100vh;
-        }
-    .hero .text {
-        padding: 2rem;
-        gap: 15px;
-    }
-    .hero .text h1 {
-        font-size: 30px;
-    }
-    .hero .text p {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
-    .hero img {
-        width: 100%;
-        height: 100%;
-    }
+  .hero {
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+  }
+   .text {
+    padding: 2rem;
+    width: 100%;
+  }
+   .text h1 {
+    font-size: 30px;
+  }
+   .text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+  }
+  .company {
+    margin-top: 20px;
+  }
+  .company h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .company .logos {
+    flex-wrap: wrap;
+  }
+  .design {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 20px;
+  }
+  .design .video {
+    flex: unset;
+  }
+  .design .video video {
+    width: 100%;
+  }
+  .design .video .desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 30px;
+  }
+  .last {
+    padding: 2rem;
+    height: 100%;
+  } 
+  .last .first {
+    gap: 10px;
+    width: 100%;
+  }
+  .last .second {
+    display: flex;
+    flex-direction: column;
+  }
 }

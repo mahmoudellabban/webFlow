@@ -14,10 +14,23 @@ body {
 a {
   text-decoration: none;
 }
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #4353ff;
+  font-size: 18px;
+  font-size: 500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 .scale-up-ver-top {
 	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 @-webkit-keyframes scale-up-ver-top {
   0% {
     -webkit-transform: scaleY(0.4);
@@ -46,7 +59,6 @@ a {
             transform-origin: 100% 0%;
   }
 }
-
 @media (max-width: 750px) {
   .container {
     padding: 2rem;
