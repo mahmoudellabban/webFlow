@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webFlow/static/css/main.0b2a09a4.css",
+    "main.css": "/webFlow/static/css/main.48318741.css",
     "main.js": "/webFlow/static/js/main.b8e2cab8.js",
     "static/media/video.mp4": "/webFlow/static/media/video.e696391f6b15ddbbc40f.mp4",
     "static/media/hero.jpeg": "/webFlow/static/media/hero.b8bfe3873002c2e1b507.jpeg",
@@ -15,11 +15,11 @@
     "static/media/_showcase.svg": "/webFlow/static/media/5e4b9a3e1e21af60883a5230_showcase.fc6dae90a3603752ddb6edade10ede22.svg",
     "static/media/uni.svg": "/webFlow/static/media/uni.cfc1fa414148f5dafd6d555fea096cf0.svg",
     "static/media/book.svg": "/webFlow/static/media/book.06d4ebd701ad8d4c5675a836f0ccb322.svg",
-    "main.0b2a09a4.css.map": "/webFlow/static/css/main.0b2a09a4.css.map",
+    "main.48318741.css.map": "/webFlow/static/css/main.48318741.css.map",
     "main.b8e2cab8.js.map": "/webFlow/static/js/main.b8e2cab8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b2a09a4.css",
+    "static/css/main.48318741.css",
     "static/js/main.b8e2cab8.js"
   ]
 }
