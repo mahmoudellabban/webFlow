@@ -197,4 +197,8 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  footer {
+    padding: 3rem;
+    font-size: 14px;
+  }
 }
